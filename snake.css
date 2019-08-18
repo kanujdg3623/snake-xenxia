@@ -1,0 +1,39 @@
+#container {
+  width: 750px;
+  height: 500px;
+  position: relative;
+  border:2px solid red;
+  margin: auto;
+}
+.snake {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: green;
+  z-index:0;
+}
+#bait{
+	width: 25px;
+  height: 25px;
+  position: absolute;
+  background: brown;
+  top:150px;
+  left:150px;
+  z-index:2;
+}
+#head{
+	background:red;
+	border-radius:20px;
+	top:10px;
+  left:10px;
+	z-index:1;
+}
+#scoreboard{
+	width: 250px;
+  height: 250px;
+	float:left;
+}
+input{
+	width: 100px;
+  height: 100px;
+}
